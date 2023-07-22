@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+      background-color: #212428;
+      color: white;
+      padding: 5px;
+}
+
+.textColor {
+      color: #FF014F;
+}
+
+.bgColor {
+      background-color: #ff014df1;
+}
+
+.fontfamily {
+      font-family: 'Montserrat sans-serif';
+}
+
+.boxshawdow {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.aboutimg img {
+
+      transform: scale(1);
+      overflow: hidden;
+      transition: 0.5s;
+
+}
+
+.aboutimg img:hover {
+
+      transform: scale(1.1);
+
+}
+
+.title_bar {
+      width: 240px;
+      height: 5px;
+      margin: auto;
+      margin-bottom: 20px;
+      background: #111111;
+      -webkit-transform: skew(-30deg);
+      -moz-transform: skew(-30deg);
+      -o-transform: skew(-30deg);
+      transform: skew(-30deg);
+
+}
+
+.servicesShadow {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.serviceBox:hover {
+      cursor: pointer;
+      transform: translateY(-20px);
+      transition: 0.4s ease-in-out;
+      
+
+}
+.serviceBox {
+         padding: 10px;
+}
