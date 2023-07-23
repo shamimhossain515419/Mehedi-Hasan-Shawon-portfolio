@@ -19,9 +19,12 @@ body {
 .fontfamily {
       font-family: 'Montserrat sans-serif';
 }
-
+.fontRoboto{
+      font-family: 'Roboto', sans-serif;
+}
 .boxshawdow {
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     
 
 }
 
@@ -65,4 +68,17 @@ body {
 }
 .serviceBox {
          padding: 10px;
+}
+
+.portfoliobox{
+       position: relative;
+        overflow: hidden;
+}
+.portfoliobox img{
+        transform: scale(1);
+        transition: 0.5s ease-in-out;
+}
+.portfoliobox img:hover{
+      transition: 0.5s ease-in-out;
+       transform: scale(1.1);
 }

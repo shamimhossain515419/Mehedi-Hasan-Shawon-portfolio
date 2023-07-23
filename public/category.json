@@ -1,0 +1,22 @@
+[
+     {
+           "id":1,
+           "category":"All"
+
+     },
+     {
+           "id":2,
+           "category":"Marketing"
+
+     },
+     {
+           "id":3,
+           "category":"design"
+
+     },
+     {
+           "id":4,
+           "category":"Lead Generation "
+
+     }
+]

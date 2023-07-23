@@ -5,7 +5,7 @@ const Banner = () => {
      return (
           <Container>
                <div>
-                    <div className=" fontfamily grid md:grid-cols-2  h-[80vh]  items-center ">
+                    <div className=" fontfamily grid md:grid-cols-2  md:h-[80vh]  items-center ">
                          <div className="  p-3 space-y-2 ">
                               <h3 className="  text-xl font-medium"> WELCOME TO MY WORLD</h3>
 
@@ -14,7 +14,7 @@ const Banner = () => {
                               <TypeAnimation
                                    sequence={[
                                         // Same substring at the start will only be typed once, initially
-                                        'A Professional Digital  Marketing',
+                                        'A Professional Digital  Marketer',
                                         2000,
                                         'A Professional   Designer',
                                         2000,

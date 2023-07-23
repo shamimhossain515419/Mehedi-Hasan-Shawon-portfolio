@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className=' grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6' >
                          <div>
                               <div className='  flex  items-center  gap-4 '>
-                                   <img className=' h-16 w-16 rounded-full ' src="https://i.ibb.co/bJJH8qk/Photo-Room-20230721-231040.png" alt="" />
+                                   <img className=' h-16 w-16 rounded-full ' src="https://i.ibb.co/tPsRBnV/Orange-Blue-Modern-Digital-Communication-Technology-Logo.png" alt="" />
                                    <h1 className=' text-xl font-semibold'> Mehedi Hasan Shawon</h1>
                               </div>
 
@@ -33,35 +33,31 @@ const Footer = () => {
                          </div>
                          <div>
                               <h1 className=' textColor text-xl  uppercase'> Support</h1>
-                              <p> Database</p>
-                              <p> Authentication</p>
+                              <p>  How it works</p>
+                              <p>Trust & Safety</p>
 
-                              <p> Storage </p>
-                              <p>Support 24/7 </p>
-                              <p>Pricing </p>
+                              <p> Help Centre </p>
+                         </div>
+                         <div>
+                              <h1 className=' textColor text-xl'> Useful Links</h1>
+                              <p> About</p>
+                              <p> Services</p>
 
-
-
-
+                              <p> Context </p>
+                              <p> Blog</p>
 
                          </div>
                          <div>
-                              <h1 className=' textColor text-xl'> PRODUCT</h1>
-                              <p> Database</p>
-                              <p> Authentication</p>
+                              <h1 className=' textColor text-xl'> Office Address</h1>
 
-                              <p> Storage </p>
-                              <p>Support 24/7 </p>
-                              <p>Pricing </p>
-                         </div>
-                         <div>
-                              <h1 className=' textColor text-xl'> RESOURCES</h1>
-                              <p> Database</p>
-                              <p> Authentication</p>
+                              <p>  Bogra  Fuldighi Bridge  5800 </p>
 
-                              <p> Storage </p>
+                              <p> Helpline: +8801705963704</p>
+                              <p> (Available : Sat - Thu, 10:00 AM to 7:00 PM)</p>
+
+
                               <p>Support 24/7 </p>
-                              <p>Pricing </p>
+
                          </div>
                     </div>
                </Container>
