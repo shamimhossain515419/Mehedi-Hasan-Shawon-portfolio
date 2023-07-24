@@ -11,10 +11,12 @@ const Contact = () => {
      const form = useRef();
      const sendEmail = (e) => {
           e.preventDefault();
-          console.log();
+
+          const from = e.target;
           emailjs.sendForm('service_4upm03s', 'template_chiautz', form.current, 'gTkzVf4IG7hauN8Xt')
                .then((result) => {
                     console.log(result.text);
+                    from.reset();
                     Swal.fire({
                          position: 'top-end',
                          icon: 'success',
@@ -38,7 +40,8 @@ const Contact = () => {
 
                     <div className=" my-20  grid md:grid-cols-5 gap-10">
 
-                         <div className=" fontRoboto contactshadow col-span-2 rounded-2xl">
+                         <div data-aos="fade-up"
+                              data-aos-anchor-placement="center-bottom" className=" fontRoboto contactshadow col-span-2 rounded-2xl">
                               <div className=" p-2  ">
                                    <img className=" w-full h-70 object-cover" src="https://i.ibb.co/BGrZtZq/contact1.png" alt="" />
                                    <div className=" space-y-2 p-3">
@@ -69,11 +72,11 @@ const Contact = () => {
                                         <div className=" w-full flex  items-center  justify-between gap-10">
                                              <div className="  w-full ">
                                                   <label htmlFor="Fist Name" className=" uppercase  text-sm font-normal "> Fist Name</label>
-                                                  <input type="text " className=" inpputbox w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="from_name" id="" />
+                                                  <input type="text " required className=" inpputbox w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="from_name" id="" />
                                              </div>
                                              <div className="  w-full ">
                                                   <label htmlFor="Last Name" className=" uppercase text-sm font-normal "> Last Name</label>
-                                                  <input type="text " className=" inpputbox w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="" id="" />
+                                                  <input type="text " required className=" inpputbox w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="" id="" />
                                              </div>
                                         </div>
                                         <div className="  w-full ">
@@ -82,11 +85,11 @@ const Contact = () => {
                                         </div>
                                         <div className="  w-full ">
                                              <label htmlFor="Subject" className=" uppercase text-sm font-normal "> Subject</label>
-                                             <input type="text " className=" inpputbox w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="" id="" />
+                                             <input type="text " required className=" inpputbox w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="" id="" />
                                         </div>
                                         <div className="  w-full ">
                                              <label htmlFor="Your massage" className=" uppercase text-sm font-normal "> Your massage</label>
-                                             <textarea className=" c w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="message" id="" cols="30" rows="7"></textarea>
+                                             <textarea required className=" c w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="message" id="" cols="30" rows="7"></textarea>
                                         </div>
                                         <div className=" contactshadow "> <button type="submit" className="  block  
                                     text-xl font-medium px-10 py-[7px] rounded-2xl   w-full  mt-7 border border-[#ff014df1]  hover:bg-[#ff014df1]  text-white">DOWNLOAD MY CV</button></div>

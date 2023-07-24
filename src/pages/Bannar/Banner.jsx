@@ -5,9 +5,9 @@ const Banner = () => {
      return (
           <Container>
                <div>
-                    <div className=" fontfamily grid md:grid-cols-2  md:h-[80vh]  items-center ">
-                         <div className="  p-3 space-y-2 ">
-                              <h3 className="  text-xl font-medium"> WELCOME TO MY WORLD</h3>
+                    <div className=" fontfamily grid md:grid-cols-2   mb-4 md:h-[80vh]  items-center ">
+                         <div data-aos="fade-right" className="  p-3 space-y-2 ">
+                              <h3 className="  text-[#eed80b]  text-3xl font-medium"> WELCOME TO MY  PORTFOLIO  </h3>
 
                               <h1 className=" tracking-tight text-3xl  md:text-5xl my-5 py-3 font-bold"> Hi, I’m Mehedi Hasan  <span className=" textColor">  Shawon</span>  </h1>
 
@@ -34,7 +34,7 @@ const Banner = () => {
                               </div>
                               </div>
                          </div>
-                         <div>
+                         <div data-aos="fade-left">
                               <img className=" object-cover  w-full  p-5  h-[80vh] " src="https://i.ibb.co/bJJH8qk/Photo-Room-20230721-231040.png" alt="" />
                          </div>
                     </div>

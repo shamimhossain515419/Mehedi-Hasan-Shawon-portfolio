@@ -8,9 +8,9 @@ import Manu from './Manu';
 import Container from '../../Components/Container';
 
 const Navbar = () => {
-     const [Open, setOpen] = useState(false)
+     const [Open, setOpen] = useState(true)
      return (
-          <nav className='px-2 py-2 shadow-lg'>
+          <nav className='px-2 w-full bg-black fixed       top-0  left-0 right-0 z-50   py-2 shadow-lg'>
                <Container>
                     <div>
                          <div className=' flex justify-between items-center'>
@@ -40,7 +40,7 @@ const Navbar = () => {
                         
                          <div className='  md:hidden'>
                          {
-                          Open ? "" : <Manu></Manu>    
+                          Open ? "" : <Manu setOpen={setOpen}></Manu>    
                          }
                          </div>
                         

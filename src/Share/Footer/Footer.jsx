@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className=' grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6' >
                          <div>
                               <div className='  flex  items-center  gap-4 '>
-                                   <img className=' h-16 w-16 rounded-full ' src="https://i.ibb.co/tPsRBnV/Orange-Blue-Modern-Digital-Communication-Technology-Logo.png" alt="" />
+                                   <img className=' h-16 w-16 rounded-full ' src="https://i.ibb.co/bJJH8qk/Photo-Room-20230721-231040.png" alt="" />
                                    <h1 className=' text-xl font-semibold'> Mehedi Hasan Shawon</h1>
                               </div>
 
