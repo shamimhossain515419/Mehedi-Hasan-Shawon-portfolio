@@ -92,7 +92,7 @@ const Contact = () => {
                                              <textarea required className=" c w-full border-none outline-none my-2 bg-[#191B1E] px-4 py-2  rounded-lg text-white text-xl font-normal " name="message" id="" cols="30" rows="7"></textarea>
                                         </div>
                                         <div className=" contactshadow "> <button type="submit" className="  block  
-                                    text-xl font-medium px-10 py-[7px] rounded-2xl   w-full  mt-7 border border-[#ff014df1]  hover:bg-[#ff014df1]  text-white">DOWNLOAD MY CV</button></div>
+                                    text-xl font-medium px-10 py-[7px] rounded-2xl   w-full  mt-7 border border-[#ff014df1]  hover:bg-[#ff014df1]  text-white">Send massage</button></div>
                                    </form>
                               </div>
                          </div>

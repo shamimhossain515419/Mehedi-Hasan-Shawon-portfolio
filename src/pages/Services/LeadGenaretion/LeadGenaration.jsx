@@ -15,24 +15,24 @@ const LeadGenaration = () => {
                          <div data-aos="fade-down-left" className="  grid md:grid-cols-2 gap-5 ">
 
                               <div className=" shadow-xl p-2">
-                             <h1 className=" text-5xl font-bold my-3 "> Our Services</h1>
+                             <h1 className=" text-5xl font-bold my-3 text-[#f40d9f] "> Our Services</h1>
                                     <div className="">
-                                    <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2 ">1. Data mining </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2"> 2. Data Collection </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">3. Data Extraction </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2"> 4. Email Collection  </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">5. Email List Building  </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">6. LinkedIn Outreach  </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">7. LinkedIn Data Mining </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2"> 8. Email Leads Generation</h1>
+                                    <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2 ">1. Data mining </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2"> 2. Data Collection </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">3. Data Extraction </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2"> 4. Email Collection  </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">5. Email List Building  </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">6. LinkedIn Outreach  </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">7. LinkedIn Data Mining </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2"> 8. Email Leads Generation</h1>
                                     </div>
                               </div>
                               <div className=" shadow-xl p-2">
-                                   <h1 className=" text-4xl font-bold my-3 "> Our Support</h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">   Services for Business  </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">LinkedIn Outreach  </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2"> 24 Hours VIP Support </h1>
-                                   <h1 className=" my-2  text-xl  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">  Unlimited Revision</h1>
+                                   <h1 className=" text-4xl font-bold my-3 text-[#f40d9f] "> Our Support</h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">   Services for Business  </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">LinkedIn Outreach  </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2"> 24 Hours VIP Support </h1>
+                                   <h1 className=" my-2  text-xl  cursor-pointer  font-medium hover:text-[#FF014F]  duration-300 cu hover:translate-x-2">  Unlimited Revision</h1>
                               </div>
                          </div>
 

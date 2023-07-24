@@ -4,7 +4,7 @@ const PortfolioCard = ({ item }) => {
      const [showModal, setShowModal] = useState(false);
      return (
           <div>
-               <div onClick={() => setShowModal(true)} className="boxshawdow cursor-pointer  portfoliobox rounded-lg overflow-hidden " ><img className="  h-96 w-full object-cover" src={item?.img} alt="" /> </div>
+               <div onClick={() => setShowModal(true)} className=" boxshawdow p-2  cursor-pointer  portfoliobox rounded-lg overflow-hidden  h-[390px] " ><img className="  h-96 w-full  object-cover" src={item?.img} alt="" /> </div>
 
                <>
                     {showModal ? (

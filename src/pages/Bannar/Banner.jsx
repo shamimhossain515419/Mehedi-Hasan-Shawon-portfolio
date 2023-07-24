@@ -34,7 +34,7 @@ const Banner = () => {
                               </div>
                               </div>
                          </div>
-                         <div data-aos="fade-left">
+                         <div data-aos="fade-left"  className=" boxshawdow  p-3 rounded-lg">
                               <img className=" object-cover  w-full  p-5  h-[80vh] " src="https://i.ibb.co/bJJH8qk/Photo-Room-20230721-231040.png" alt="" />
                          </div>
                     </div>

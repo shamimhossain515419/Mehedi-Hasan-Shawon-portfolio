@@ -33,7 +33,7 @@ const ServicesCard = () => {
      }
      return (
           <div className="  grid  md:grid-cols-3 gap-9 ">
-               <div className="  servicesShadow p-3">
+               <div data-aos="zoom-in-down" className="  servicesShadow p-3">
                     <div className=' serviceBox'>
                          <Lottie options={defaultOptions1}
                               height={200}
@@ -50,7 +50,7 @@ const ServicesCard = () => {
                     </div>
                </div>
 
-               <div className="  servicesShadow p-3">
+               <div data-aos="zoom-in-down" className="  servicesShadow p-3">
                     <div className='serviceBox'>
                          <Lottie options={defaultOptions2}
                               height={200}
@@ -66,7 +66,7 @@ const ServicesCard = () => {
                          </div>
                     </div>
                </div>
-               <div className="  servicesShadow p-3">
+               <div data-aos="zoom-in-up" className="  servicesShadow p-3">
                     <div className='serviceBox'>
                          <Lottie options={defaultOptions3}
                               height={200}
