@@ -45,7 +45,7 @@ const Contact = () => {
                               <div className=" p-2  ">
                                    <img className=" w-full h-70 object-cover" src="https://i.ibb.co/BGrZtZq/contact1.png" alt="" />
                                    <div className=" space-y-2 p-3">
-                                        <h2 className=" text-3xl  font-medium "> Chief Operating Officer</h2>
+                                        <h2 className=" text-3xl  font-medium "> Digital Marketer</h2>
                                         <p className="   text-xl leading-8"> I am available for freelance work. <br /> Connect with me via and call in to my account.</p>
                                         <div>  <p className=" text-lg font-medium">  Phone: <span className=" hover:text-[#FF014F] hover:underline"> +8801705963704</span> </p>
                                              <p className=" text-lg font-medium">  Email: <span className=" hover:text-[#FF014F] hover:underline"> mehedihasan63704@gmail.com</span> </p></div>
