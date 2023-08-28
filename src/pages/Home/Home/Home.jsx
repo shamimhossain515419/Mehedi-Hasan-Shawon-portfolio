@@ -4,6 +4,7 @@ import About from "../../About";
 import Banner from "../../Bannar/Banner";
 import Client from "../../Client/Clinet";
 import Contact from "../../Contact/Contact";
+import OurServices from "../../OurServices/Services/OurServices";
 import Portfolio from "../../Portfolio/Portfolio";
 import Services from "../../Services/Services";
 
@@ -16,6 +17,8 @@ const Home = () => {
                </Container>
                <Complited></Complited>
                <Services></Services>
+
+                <OurServices></OurServices>
                <Portfolio></Portfolio>
                <Client></Client>
                <Contact></Contact>
